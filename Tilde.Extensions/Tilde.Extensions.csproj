@@ -4,16 +4,35 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <PackageId></PackageId>
-    <Title></Title>
-    <Version>0.0.9-alpha</Version>
+    <PackageId>Tilde.Extensions</PackageId>
+    <Title>Tilde.Extensions</Title>
+    <Version>0.1.10-alpha</Version>
     <PackageProjectUrl></PackageProjectUrl>
     <RepositoryUrl>https://github.com/TildeLtd/Tilde.Extensions</RepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <ApplicationIcon>tilde-logo-32x32.ico</ApplicationIcon>
+    <Copyright>Tilde Limited</Copyright>
+    <Description>Tilde.Extensions includes experimental extentions for C# Dotnet. It should not be used in production.</Description>
+    <PackageIcon>tilde-logo-128x128.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="tilde-logo-32x32.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="tilde-logo-128x128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="7.0.0" />
+  </ItemGroup>
 
   <ItemGroup>
     <None Update="LICENSE.md">

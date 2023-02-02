@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using System.Text;
 
-namespace Tilde.Extensions.DateTime
+namespace Tilde.Extensions.Types
 {
    public static partial class DateTimeExtensions
    {

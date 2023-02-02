@@ -3,7 +3,7 @@ using System;
 using System.Text.RegularExpressions;
 using System.Diagnostics.CodeAnalysis;
 
-namespace Tilde.Extensions.String
+namespace Tilde.Extensions.Types
 {
    public static partial class StringExtensions
    {
