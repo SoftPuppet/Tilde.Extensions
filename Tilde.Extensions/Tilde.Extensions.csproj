@@ -6,7 +6,7 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageId>Tilde.Extensions</PackageId>
     <Title>Tilde.Extensions</Title>
-    <Version>0.1.10-alpha</Version>
+    <Version>0.1.20-alpha</Version>
     <PackageProjectUrl></PackageProjectUrl>
     <RepositoryUrl>https://github.com/TildeLtd/Tilde.Extensions</RepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>

@@ -1,5 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Tilde.Extensions.String;
+using Tilde.Extensions.Types;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Security.Cryptography;
 
-namespace Tilde.Extensions.String.Tests
+namespace Tilde.Extensions.Types.Tests
 {
     [TestClass()]
     public class StringExtensionsTests
