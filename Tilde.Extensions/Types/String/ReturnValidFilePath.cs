@@ -1,7 +1,7 @@
-﻿using System.IO;
-using System;
-using System.Text.RegularExpressions;
+﻿using System;
 using System.Diagnostics.CodeAnalysis;
+using System.IO;
+using System.Text.RegularExpressions;
 
 namespace Tilde.Extensions.Types
 {

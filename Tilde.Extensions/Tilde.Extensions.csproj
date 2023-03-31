@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
@@ -6,7 +6,7 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageId>Tilde.Extensions</PackageId>
     <Title>Tilde.Extensions</Title>
-    <Version>0.1.30-alpha</Version>
+    <Version>1.0.0</Version>
     <PackageProjectUrl></PackageProjectUrl>
     <RepositoryUrl>https://github.com/TildeLtd/Tilde.Extensions</RepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -15,7 +15,7 @@
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <ApplicationIcon>tilde-logo-32x32.ico</ApplicationIcon>
     <Copyright>Tilde Limited</Copyright>
-    <Description>Tilde.Extensions includes experimental extentions for C# Dotnet. It should not be used in production.</Description>
+    <Description>Tilde.Extensions includes experimental extentions for C# Dotnet. It should not be used in production or use it at your own risk. Breaking changes are introduced without warning.</Description>
     <PackageIcon>tilde-logo-128x128.png</PackageIcon>
   </PropertyGroup>
 

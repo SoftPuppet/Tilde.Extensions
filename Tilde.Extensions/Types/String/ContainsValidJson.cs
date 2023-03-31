@@ -1,6 +1,4 @@
 ﻿using System.Diagnostics.CodeAnalysis;
-using System.Runtime.Serialization.Json;
-using System.Text.Json;
 using System.Text.RegularExpressions;
 
 namespace Tilde.Extensions.Types
