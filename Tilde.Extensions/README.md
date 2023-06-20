@@ -1,1 +1,1 @@
-Tilde.Extensions includes experimental extentions for C# Dotnet. It should not be used in production.
+Tilde.Extensions includes experimental extentions for C# Dotnet. It should not be used in production or use it at your own risk. Breaking changes are introduced without warning.

@@ -1,27 +1,21 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Tilde.Extensions.Types;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Tilde.Extensions.Types.Tests
 {
-    [TestClass()]
+    [TestClass]
     public class DateTimeExtensionsTests
     {
-        [TestMethod()]
+        [TestMethod]
         public void ToFinancialQuarterTest()
         {
-            System.DateTime financialYearStart1 = new System.DateTime(2022, 6, 1);
+            DateTime financialYearStart1 = new DateTime(2022, 6, 1);
 
-            System.DateTime source1 = new System.DateTime(2000, 2, 29);
-            System.DateTime source2 = new System.DateTime(2022, 9, 30);
-            System.DateTime source3 = new System.DateTime(2023, 1, 1);
-            System.DateTime source4 = new System.DateTime(2023, 6, 29);
-            System.DateTime source5 = new System.DateTime(2023, 3, 29);
-            System.DateTime source6 = new System.DateTime(2023, 3, 30);
+            DateTime source1 = new DateTime(2000, 2, 29);
+            DateTime source2 = new DateTime(2022, 9, 30);
+            DateTime source3 = new DateTime(2023, 1, 1);
+            DateTime source4 = new DateTime(2023, 6, 29);
+            DateTime source5 = new DateTime(2023, 3, 29);
+            DateTime source6 = new DateTime(2023, 3, 30);
 
             int quarter1 = source1.ToFinancialQuarter(financialYearStart1);
             int quarter2 = source2.ToFinancialQuarter(financialYearStart1);
@@ -39,14 +33,14 @@ namespace Tilde.Extensions.Types.Tests
 
             // ---------------------------------------------------------------------------
 
-            System.DateTime financialYearStart2 = new System.DateTime(2023, 4, 1);
+            DateTime financialYearStart2 = new DateTime(2023, 4, 1);
 
-            System.DateTime source7 = new System.DateTime(2000, 2, 29);
-            System.DateTime source8 = new System.DateTime(2024, 12, 30);
-            System.DateTime source9 = new System.DateTime(2021, 7, 31);
-            System.DateTime source10 = new System.DateTime(2008, 10, 30);
-            System.DateTime source11 = new System.DateTime(2022, 4, 1);
-            System.DateTime source12 = new System.DateTime(2030, 1, 1);
+            DateTime source7 = new DateTime(2000, 2, 29);
+            DateTime source8 = new DateTime(2024, 12, 30);
+            DateTime source9 = new DateTime(2021, 7, 31);
+            DateTime source10 = new DateTime(2008, 10, 30);
+            DateTime source11 = new DateTime(2022, 4, 1);
+            DateTime source12 = new DateTime(2030, 1, 1);
 
             int quarter7 = source7.ToFinancialQuarter(financialYearStart2);
             int quarter8 = source8.ToFinancialQuarter(financialYearStart2);
