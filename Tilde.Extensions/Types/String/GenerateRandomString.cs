@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Text;
 
-namespace Tilde.Extensions.Types.String
+namespace Tilde.Extensions.Types
 {
     public static partial class StringExtensions
     {
