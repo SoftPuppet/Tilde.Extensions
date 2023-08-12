@@ -1,48 +1,43 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
-    <Nullable>enable</Nullable>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <PackageId>Tilde.Extensions</PackageId>
-    <Title>Tilde.Extensions</Title>
-    <Version>1.1.2</Version>
-    <PackageProjectUrl></PackageProjectUrl>
-    <RepositoryUrl>https://github.com/TildeLtd/Tilde.Extensions</RepositoryUrl>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryType>git</RepositoryType>
-    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
-    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <ApplicationIcon>tilde-logo-32x32.ico</ApplicationIcon>
-    <Copyright>Tilde Limited</Copyright>
-    <Description>Tilde.Extensions includes experimental extentions for C# Dotnet. It should not be used in production or use it at your own risk. Breaking changes are introduced without warning.</Description>
-    <PackageIcon>tilde-logo-128x128.png</PackageIcon>
-  </PropertyGroup>
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+        <PackageId>Tilde.Extensions</PackageId>
+        <Title>Tilde.Extensions</Title>
+        <Version>1.1.4</Version>
+        <PackageProjectUrl>&gt;https://github.com/SoftPuppet/Tilde.Extensions</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/SoftPuppet/Tilde.Extensions</RepositoryUrl>
+        <Authors>Pauly</Authors>
+        <Company>Tilde Limited</Company>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <RepositoryType>git</RepositoryType>
+        <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+        <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+        <ApplicationIcon>tilde-logo-32x32.ico</ApplicationIcon>
+        <Copyright>Tilde Limited</Copyright>
+        <Description>Tilde.Extensions includes experimental extentions for C# Dotnet. It should not be used in production or use it at your own risk. Breaking changes are introduced without warning.</Description>
+        <PackageIcon>tilde-logo-128x128.png</PackageIcon>
+    </PropertyGroup>
 
-  <ItemGroup>
-    <Content Include="tilde-logo-32x32.ico" />
-  </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="System.Text.Json" Version="7.0.3" />
+    </ItemGroup>
 
-  <ItemGroup>
-    <None Include="tilde-logo-128x128.png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-  </ItemGroup>
+    <ItemGroup>
+        <None Include="tilde-logo-128x128.png" Pack="true" PackagePath="\" />
+    </ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="System.Text.Json" Version="7.0.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="LICENSE.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-    <None Update="README.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-  </ItemGroup>
+    <ItemGroup>
+        <None Update="LICENSE.md">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
+        <None Update="README.md">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
+    </ItemGroup>
 
 </Project>
