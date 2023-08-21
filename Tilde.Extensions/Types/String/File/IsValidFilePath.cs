@@ -12,10 +12,10 @@ namespace Tilde.Extensions.Types
         /// <param name="source">The file path to validate.</param>
         /// <param name="reason">The reason why the file path is not valid, or null if the file path is valid.</param>
         /// <returns>True if the file path is valid, false otherwise.</returns>
-        public static bool IsValidFilePath([DisallowNull] this string source, out string reason)
+        public static bool IsValidFilePath(this string source, out string reason)
         {
             // Return false if the path is null or empty
-            if (string.IsNullOrEmpty(source) || string.IsNullOrWhiteSpace(source))
+            if (string.IsNullOrWhiteSpace(source))
             {
                 reason = "The provided string is empty.";
                 return false;
