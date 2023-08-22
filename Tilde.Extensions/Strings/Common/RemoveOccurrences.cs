@@ -76,11 +76,4 @@ namespace Tilde.Extensions.Strings
             return result.ToString();
         }
     }
-
-    public enum RemovalMode
-    {
-        Anywhere,
-        StartOnly,
-        EndOnly
-    }
 }
