@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tilde.Extensions", "Tilde.E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tilde.ExtensionsTests", "Tilde.ExtensionsTests\Tilde.ExtensionsTests.csproj", "{5CD82839-BB86-4CA6-B2A5-F0741D11B71A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tilde.Utilities", "..\Tilde.Utilities\Tilde.Utilities.csproj", "{BBCD4433-A37D-40EF-9DF2-26A83470A750}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5CD82839-BB86-4CA6-B2A5-F0741D11B71A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CD82839-BB86-4CA6-B2A5-F0741D11B71A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CD82839-BB86-4CA6-B2A5-F0741D11B71A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBCD4433-A37D-40EF-9DF2-26A83470A750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBCD4433-A37D-40EF-9DF2-26A83470A750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBCD4433-A37D-40EF-9DF2-26A83470A750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBCD4433-A37D-40EF-9DF2-26A83470A750}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
