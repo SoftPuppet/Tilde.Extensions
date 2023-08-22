@@ -30,6 +30,10 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\..\Tilde.Utilities\Tilde.Utilities.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
         <None Update="LICENSE.md">
             <Pack>True</Pack>
             <PackagePath>\</PackagePath>
@@ -38,6 +42,10 @@
             <Pack>True</Pack>
             <PackagePath>\</PackagePath>
         </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Strings\Encryption\" />
     </ItemGroup>
 
 </Project>
