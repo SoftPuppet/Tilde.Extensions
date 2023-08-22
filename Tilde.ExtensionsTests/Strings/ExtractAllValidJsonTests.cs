@@ -5,7 +5,7 @@ using Tilde.Extensions.Strings;
 namespace Tilde.ExtensionsTests.Strings;
 
 [TestClass]
-public class ExtraAllValidJsonTests
+public class ExtractAllValidJsonTests
 {
     [TestMethod]
     public void Test_ExtractAllValidJson_JsonString()
