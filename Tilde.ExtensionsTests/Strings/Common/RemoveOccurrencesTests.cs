@@ -2,7 +2,7 @@
 
 using Tilde.Extensions.Strings;
 
-namespace Tilde.ExtensionsTests.Strings.Common
+namespace Tilde.ExtensionsTests.Strings
 {
     [TestClass]
     public class RemoveOccurencesTests
