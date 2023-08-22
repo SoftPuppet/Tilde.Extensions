@@ -8,6 +8,15 @@ namespace Tilde.Extensions.IO
     {
         public enum Versioning { Default, DateOnly, DateTime }
 
+        /// <summary>
+        /// Generates a unique file path based on the provided source path, applying optional versioning, separator, and version token customization.
+        /// </summary>
+        /// <param name="source">The original file path that needs to be made unique.</param>
+        /// <param name="enforceVersioning">A flag to determine whether versioning should be applied even if the original file path is unique. Defaults to false.</param>
+        /// <param name="versioning">The versioning strategy to apply. See <see cref="Versioning"/> enumeration for available strategies. Defaults to <see cref="Versioning.Default"/>.</param>
+        /// <param name="separator">The separator character used between the file name and the versioning information. Defaults to a space (" ").</param>
+        /// <param name="versionToken">The token to use for versioning, such as "v" for "version". Defaults to "v".</param>
+        /// <returns>A tuple containing a success flag, the generated unique file path, and an error message if the operation failed.</returns>
         public static (bool Success, string FilePath, string ErrorMessage) GenerateUniqueFilePath(this string source, bool enforceVersioning = false, Versioning versioning = Versioning.Default, string separator = " ", string versionToken = "v")
         {
             if (string.IsNullOrEmpty(source))
