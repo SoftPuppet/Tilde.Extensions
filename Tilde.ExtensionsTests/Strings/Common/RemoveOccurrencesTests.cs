@@ -10,9 +10,9 @@ namespace Tilde.ExtensionsTests.Strings.Common
         [TestMethod]
         public void Test_RemoveOccurrences_Anywhere()
         {
-            string source = "I am a new world, world world";
+            string source = "I am a new world, World world";
             string result = source.RemoveOccurrences(RemovalMode.Anywhere, false, "world");
-            Assert.AreEqual("I am a new ,  ", result);
+            Assert.AreEqual("I am a new , World ", result);
         }
 
         [TestMethod]
