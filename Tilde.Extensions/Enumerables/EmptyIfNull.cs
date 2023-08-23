@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Tilde.Extensions.Enumerables
+namespace Tilde.Extensions
 {
     public static partial class EnumerableExtensions
     {

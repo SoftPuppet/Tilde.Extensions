@@ -1,15 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Tilde.Extensions.DateAndTime;
-
-using Tilde.Extensions;
-
-namespace Tilde.ExtensionsTests.DateAndTime
+﻿namespace Tilde.ExtensionsTests.DateAndTime
 {
     [TestClass]
     public class GetFinancialYearTests
@@ -61,12 +50,13 @@ namespace Tilde.ExtensionsTests.DateAndTime
             if (month < 4 && month > 1)
             {
                 financialYearEnd = year;
-            }else
+            }
+            else
             {
                 financialYearEnd = year + 1;
             }
 
-            return $"FY{financialYearEnd-1}-{financialYearEnd}";
+            return $"FY{financialYearEnd - 1}-{financialYearEnd}";
         }
     }
 }

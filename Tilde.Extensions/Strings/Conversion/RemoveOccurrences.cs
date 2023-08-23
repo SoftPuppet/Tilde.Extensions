@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Text;
 
-namespace Tilde.Extensions.Strings
+namespace Tilde.Extensions
 {
     public static partial class StringExtensions
     {

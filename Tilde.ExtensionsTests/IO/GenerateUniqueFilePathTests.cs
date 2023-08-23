@@ -1,8 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-
-using Tilde.Extensions.IO;
-
-namespace Tilde.ExtensionsTests.IO;
+﻿namespace Tilde.ExtensionsTests.IO;
 
 [TestClass]
 public class GenerateUniqueFilePathTests

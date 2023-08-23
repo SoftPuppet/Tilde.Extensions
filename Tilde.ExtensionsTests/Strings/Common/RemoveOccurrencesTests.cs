@@ -1,8 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Tilde.Extensions;
-using Tilde.Extensions.Strings;
-
-namespace Tilde.ExtensionsTests.Strings;
+﻿namespace Tilde.ExtensionsTests.Strings;
 
 [TestClass]
 public class RemoveOccurencesTests

@@ -1,6 +1,6 @@
 ﻿using System.Text.Json;
 
-namespace Tilde.Extensions.Strings
+namespace Tilde.Extensions
 {
     public static partial class StringExtensions
     {

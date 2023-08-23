@@ -1,8 +1,8 @@
 ﻿using System;
 
-using Tilde.Utilities.ThreadSafety;
+using Tilde.Extensions.Utilities;
 
-namespace Tilde.Extensions.Strings
+namespace Tilde.Extensions
 {
     public static partial class StringExtensions
     {
@@ -38,4 +38,6 @@ namespace Tilde.Extensions.Strings
             return new string(span);
         }
     }
+
+
 }

@@ -2,7 +2,7 @@
 using System.IO;
 using System.Text.RegularExpressions;
 
-namespace Tilde.Extensions.IO
+namespace Tilde.Extensions
 {
     public static partial class StringExtensions
     {

@@ -2,7 +2,7 @@
 using System.Diagnostics.CodeAnalysis;
 using System.IO;
 
-namespace Tilde.Extensions.IO
+namespace Tilde.Extensions
 {
     public static partial class IOExtensions
     {

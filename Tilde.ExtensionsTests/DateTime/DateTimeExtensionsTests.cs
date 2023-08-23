@@ -1,7 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Tilde.Extensions.Types;
-
-namespace Tilde.ExtensionsTests.DateAndTime
+﻿namespace Tilde.ExtensionsTests.DateAndTime
 {
     [TestClass]
     public class GetFinancialQuaterTests
@@ -9,7 +6,7 @@ namespace Tilde.ExtensionsTests.DateAndTime
         [TestMethod]
         public void ToFinancialQuarterTest()
         {
-            DateTime financialYearStart1 = new DateTime(2022, 6, 1);
+            Month financialYearStart1 = Month.June;
 
             DateTime source1 = new DateTime(2000, 2, 29);
             DateTime source2 = new DateTime(2022, 9, 30);
@@ -18,12 +15,12 @@ namespace Tilde.ExtensionsTests.DateAndTime
             DateTime source5 = new DateTime(2023, 3, 29);
             DateTime source6 = new DateTime(2023, 3, 30);
 
-            int quarter1 = source1.ToFinancialQuarter(financialYearStart1);
-            int quarter2 = source2.ToFinancialQuarter(financialYearStart1);
-            int quarter3 = source3.ToFinancialQuarter(financialYearStart1);
-            int quarter4 = source4.ToFinancialQuarter(financialYearStart1);
-            int quarter5 = source5.ToFinancialQuarter(financialYearStart1);
-            int quarter6 = source6.ToFinancialQuarter(financialYearStart1);
+            int quarter1 = source1.GetFinancialQuarter(financialYearStart1);
+            int quarter2 = source2.GetFinancialQuarter(financialYearStart1);
+            int quarter3 = source3.GetFinancialQuarter(financialYearStart1);
+            int quarter4 = source4.GetFinancialQuarter(financialYearStart1);
+            int quarter5 = source5.GetFinancialQuarter(financialYearStart1);
+            int quarter6 = source6.GetFinancialQuarter(financialYearStart1);
 
             Assert.AreEqual(3, quarter1);
             Assert.AreEqual(2, quarter2);
@@ -34,7 +31,7 @@ namespace Tilde.ExtensionsTests.DateAndTime
 
             // ---------------------------------------------------------------------------
 
-            DateTime financialYearStart2 = new DateTime(2023, 4, 1);
+            Month financialYearStart2 = Month.April;
 
             DateTime source7 = new DateTime(2000, 2, 29);
             DateTime source8 = new DateTime(2024, 12, 30);
@@ -43,12 +40,12 @@ namespace Tilde.ExtensionsTests.DateAndTime
             DateTime source11 = new DateTime(2022, 4, 1);
             DateTime source12 = new DateTime(2030, 1, 1);
 
-            int quarter7 = source7.ToFinancialQuarter(financialYearStart2);
-            int quarter8 = source8.ToFinancialQuarter(financialYearStart2);
-            int quarter9 = source9.ToFinancialQuarter(financialYearStart2);
-            int quarter10 = source10.ToFinancialQuarter(financialYearStart2);
-            int quarter11 = source11.ToFinancialQuarter(financialYearStart2);
-            int quarter12 = source12.ToFinancialQuarter(financialYearStart2);
+            int quarter7 = source7.GetFinancialQuarter(financialYearStart2);
+            int quarter8 = source8.GetFinancialQuarter(financialYearStart2);
+            int quarter9 = source9.GetFinancialQuarter(financialYearStart2);
+            int quarter10 = source10.GetFinancialQuarter(financialYearStart2);
+            int quarter11 = source11.GetFinancialQuarter(financialYearStart2);
+            int quarter12 = source12.GetFinancialQuarter(financialYearStart2);
 
             Assert.AreEqual(4, quarter7);
             Assert.AreEqual(3, quarter8);

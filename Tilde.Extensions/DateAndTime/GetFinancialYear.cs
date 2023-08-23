@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace Tilde.Extensions.DateAndTime
+namespace Tilde.Extensions
 {
     public static partial class DateTimeExtensions
     {

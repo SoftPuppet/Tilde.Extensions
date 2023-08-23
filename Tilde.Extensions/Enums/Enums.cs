@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Tilde.Extensions
+﻿namespace Tilde.Extensions
 {
-    // Enum for the RemovalMode used in Tilde.Extensions.Strings.RemoveOccurences(this string source, RemovalMode mode ...)
+    // Enum for the RemovalMode used in Tilde.Extensions.Strings.RemoveOccurences(this string source, RemovalMode mode ...) and More
     public enum RemovalMode
     {
         Anywhere,
@@ -12,7 +8,7 @@ namespace Tilde.Extensions
         EndOnly
     }
 
-    // Enum for GetFinancialYear(this DateTime source, FinancialYearStartMonth startMonth ...)
+    // Enum for GetFinancialYear(this DateTime source, FinancialYearStartMonth startMonth ...) and More
     public enum Month
     {
         January = 1,

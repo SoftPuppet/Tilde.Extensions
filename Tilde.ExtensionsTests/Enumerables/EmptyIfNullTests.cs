@@ -1,8 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-
-using Tilde.Extensions.Enumerables;
-
-namespace Tilde.ExtensionsTests.Enumerables;
+﻿namespace Tilde.ExtensionsTests.Enumerables;
 
 [TestClass]
 public class EmptyIfNullTests
