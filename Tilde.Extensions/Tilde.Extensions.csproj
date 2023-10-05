@@ -1,13 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netstandard2.1</TargetFramework>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>true</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <JsonSerializerIsReflectionEnabledByDefault>false</JsonSerializerIsReflectionEnabledByDefault>
+        <PublishAot>false</PublishAot>
+        <IsAotCompatible>false</IsAotCompatible>
+        <OutputType>Library</OutputType>
         <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
         <PackageId>Tilde.Extensions</PackageId>
         <Title>Tilde.Extensions</Title>
-        <Version>2.0.2</Version>
-        <PackageProjectUrl>&gt;https://github.com/SoftPuppet/Tilde.Extensions</PackageProjectUrl>
+        <Version>8.0.2</Version>
+        <PackageProjectUrl>https://github.com/SoftPuppet/Tilde.Extensions</PackageProjectUrl>
         <RepositoryUrl>https://github.com/SoftPuppet/Tilde.Extensions</RepositoryUrl>
         <Authors>Pauly</Authors>
         <Company>Tilde Limited</Company>
@@ -22,7 +27,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="System.Text.Json" Version="7.0.3" />
+        <PackageReference Include="System.Text.Json" Version="8.0.0-rc.1.23419.4" />
     </ItemGroup>
 
     <ItemGroup>
