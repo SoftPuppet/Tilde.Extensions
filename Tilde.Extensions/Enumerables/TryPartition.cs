@@ -45,3 +45,9 @@ public static partial class EnumerableExtensions {
     Console.WriteLine("Partition failed. Check your input parameters.");
   }
 */
+
+// Alternative, but less readable
+//public static (IEnumerable<T> True, IEnumerable<T> False) Partition<T>(this IEnumerable<T> source, Func<T, bool> predicate) {
+//  var partitions = source.ToLookup(predicate);
+//  return (partitions[true], partitions[false]);
+//}
